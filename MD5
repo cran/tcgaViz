@@ -1,4 +1,4 @@
-a2b75c0273adb0eb9371b4171800bcd4 *DESCRIPTION
+00308c184cf58c38ffb691b069147b69 *DESCRIPTION
 176d88eae5ba5259349fa4e616f3bf1a *NAMESPACE
 5a1cbe8f0a0ffe96c902582757e6436c *R/app_config.R
 ba021976ba3b93156b1a1215f5210fb5 *R/app_server.R
@@ -19,7 +19,7 @@ d22461710c6471937d7daf29038d23d6 *R/run_app.R
 25fcfcade3d6581296092f04a42b4a0c *R/sysdata.rda
 bc35e00abe7bf67a989ff9f5ee5c1c70 *R/tcga.R
 5874bd3cd8a7cf63ab43c0dc12d487c6 *R/tcgaViz-package.R
-3267b0388f879f2912454338d45cadff *README.md
+4ba392511a0c2dbda561ba21d80eeae0 *README.md
 c5ec1895a6f141bcd5c660a9677d3709 *build/vignette.rds
 c614ae642e5917fa5616e158e68a8e4d *data/tcga.rda
 5e0f4d0549053dfc8f85304cb61e5de5 *inst/WORDLIST
@@ -27,19 +27,19 @@ c614ae642e5917fa5616e158e68a8e4d *data/tcga.rda
 b832b4107a2ae1a7c1ea62cb8f697e90 *inst/app/www/shiny-notification.css
 921b08ab18e0249a519329c9399e652a *inst/app/www/style.css
 1a0813f509683b5653818164b9183812 *inst/doc/Tutorial.R
-15163e2d265d6cd4bce123435f48a0d4 *inst/doc/Tutorial.Rmd
-f1991ac7ccba65919c1d0a33c643abd5 *inst/doc/Tutorial.html
+82947ed14c971a28b6d3f33f9eea135b *inst/doc/Tutorial.Rmd
+f89fcd3de855ed5dbb19eb4a1e4f2860 *inst/doc/Tutorial.html
 08ae9c4276da61ef184e266969b2d9ba *inst/extdata/algorithm_list.csv
 b4ed502dc2cecda11a3cc86f7b41f6e1 *inst/extdata/disease_list.csv
 9861dcf53640b6809ab4a79641f2c734 *inst/extdata/gene_list.csv
 986fede1504517b5305328e59dfde41c *inst/extdata/tissue_list.csv
-125a61735149af7834f3e606b31ed915 *inst/golem-config.yml
+0a244ea5de561d94aa48b27dea962992 *inst/golem-config.yml
 480965ede63e18b853ce3169724fcc4e *inst/tcga_viz.R
 0e9c2093c44640b53d8b2e2a18b9a6f1 *man/calculate_pvalue.Rd
 673106c92335f4a39688e9467005aa24 *man/convert2biodata.Rd
 1c83e5e38f5daa46a0015346d3de94fc *man/convert_biodata.Rd
-8824a460c176d62216c67b35e51d479a *man/figures/README-advanced-1.png
-7fb92c44273bcf4799c1a1837459d228 *man/figures/README-plot-1.png
+0f3c93b0a84c3b7bac2590cd9e671799 *man/figures/README-advanced-1.png
+28ecea39f7944aaa0c07e6be9d025c11 *man/figures/README-plot-1.png
 de4d6ca1a1756af768a2959e7f46a572 *man/plot.biodata.Rd
 bb86a6d6128a87734d73042d9f9c95ce *man/run_app.Rd
 1ac3f0056847e45641d74cb6deb0ec60 *man/tcga.Rd
@@ -47,4 +47,4 @@ bb86a6d6128a87734d73042d9f9c95ce *man/run_app.Rd
 92262a20660ecace2cb8c021a5bb49f7 *tests/spelling.R
 6d23d04fc4716a6fab0ba2304a33b0bc *tests/testthat.R
 e3b6b31b0b4fbd62729a024cab4e42ed *tests/testthat/test-golem-recommended.R
-15163e2d265d6cd4bce123435f48a0d4 *vignettes/Tutorial.Rmd
+82947ed14c971a28b6d3f33f9eea135b *vignettes/Tutorial.Rmd

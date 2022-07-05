@@ -1,6 +1,6 @@
 Package: tcgaViz
 Title: Visualization Tool for the Cancer Genome Atlas Program (TCGA)
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     c(person(given = "Etienne",
              family = "Camenen",
@@ -21,19 +21,17 @@ Imports: config, data.table, dplyr, DT, ggplot2, ggpubr, golem,
         grDevices, magrittr, methods, openxlsx, plotly, readr,
         reshape2, rlang, rstatix, shiny, shinyFeedback, shinyjs, stats,
         stringr, tidyr, tidyselect, utils
-Suggests: BiocCheck, covr, knitr, rmarkdown, spelling, testthat
+Suggests: covr, knitr, rmarkdown, spelling, testthat
 VignetteBuilder: knitr
-biocViews: Visualization, ImmunoOncology, Genetics, GeneExpression,
-        MultipleComparison, DifferentialExpression, RNASeq
 Encoding: UTF-8
 Language: en-US
 LazyData: false
 RoxygenNote: 7.1.2
 NeedsCompilation: no
-Packaged: 2022-06-27 14:26:10 UTC; rstudio
+Packaged: 2022-07-05 13:16:31 UTC; rstudio
 Author: Etienne Camenen [aut, cre],
   Gilles Marodon [aut],
   Nicolas Aubert [aut]
 Maintainer: Etienne Camenen <etienne.camenen@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-06-28 15:50:02 UTC
+Date/Publication: 2022-07-05 14:00:02 UTC
