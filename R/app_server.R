@@ -10,10 +10,13 @@ app_server <- function(input, output, session) {
         file <- "tcga.rda"
         file_path <- file.path(path, file)
         if (!file.exists(file_path)) {
-            download.file(
-                "https://tcga-pancan-atlas-hub.s3.us-east-1.amazonaws.com/download/EB%2B%2BAdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.xena.gz",
-                file_path,
-                "wget"
+            show_message(
+                download.file(
+                    "https://zenodo.org/record/6577211/files/tcga.rda?download=1",
+                    file_path,
+                    "wget"
+                ),
+            "Data extraction in progress..."
             )
         }
         show_message(

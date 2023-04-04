@@ -15,7 +15,8 @@ database.
 
 ## Installation
 
-Required: - Softwares : R (≥ 3.3.0) - R libraries : see the
+Required: - Softwares : R (≥ 3.3.0); RStudio
+(<https://posit.co/downloads/>) - R libraries : see the
 [DESCRIPTION](https://github.com/ecamenen/tcgaViz/blob/develop/DESCRIPTION)
 file.
 
@@ -34,7 +35,7 @@ devtools::install_github("ecamenen/tcgaViz")
 2.  Copy it in the “extdata” folder of the library (get the path of your
     library with the following R command:
     `system.file("extdata", package = "tcgaViz")`.
-3.  Open R and run: `tcgaViz::run_app()`
+3.  Open RStudio and run: `tcgaViz::run_app()`
 
 ## Docker
 
@@ -165,14 +166,15 @@ expressions.
     df,
     method_test = "t_test",
     method_adjust = "bonferroni",
-    p_threshold = 0.01
+    p_threshold = 0.05
 ))
 #> Breast Invasive Carcinoma (BRCA; Primary Tumor)
 #> Student's t-test with bonferroni correction (n_low = 8; n_high = 8).
-#> # A tibble: 1 x 9
+#> # A tibble: 2 x 9
 #>   `Cell type` `Average(75%)` `Average(25%)` `SD(75%)` `SD(25%)` `Average(75% - …
 #>   <fct>                <dbl>          <dbl>     <dbl>     <dbl>            <dbl>
-#> 1 Macrophage…          0.117         0.0456    0.0274    0.0216           0.0719
+#> 1 Macrophage…         0.0646        0.00560    0.0348   0.00651           0.0590
+#> 2 Macrophage…         0.117         0.0456     0.0274   0.0216            0.0719
 #> # … with 3 more variables: P-value <dbl>, P-value adjusted <dbl>,
 #> #   Significance <chr>
 plot(
@@ -190,7 +192,7 @@ plot(
     draw = FALSE
 ) + labs(
     subtitle = paste("Breast Invasive Carcinoma (BRCA; Primary Tumor):",
-    "Student's t-test with Bonferroni (P < 0.01)")
+    "Student's t-test with Bonferroni (P < 0.05)")
 )
 ```
 
